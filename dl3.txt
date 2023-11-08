@@ -1,0 +1,75 @@
+18)	What is NLP ?
+
+NLP (Natural Language Processing)
+
+NLP is a field of artificial intelligence that deals with the interaction between computers and human language. It focuses on enabling computers to understand, interpret, and generate human language. NLP has a wide range of applications, including machine translation, text summarization, chatbots, and sentiment analysis.
+
+19)	What is Word embedding related to NLP ?
+
+Word Embedding
+
+Word embedding is a technique for representing words as vectors of numbers. This allows computers to understand the meaning of words and their relationships to other words. Word embedding is essential for many NLP tasks, such as machine translation and sentiment analysis.
+
+20)	Explain Word2Vec techniques.
+
+Word2Vec Techniques
+
+Word2Vec is a family of algorithms that are used to learn word embeddings. Two common Word2Vec techniques are CBOW (Continuous Bag-of-Words) and Skip-gram.
+
+CBOW: CBOW predicts a word given its surrounding context.
+
+Skip-gram: Skip-gram predicts surrounding words given a target word
+
+21)	Enlist applications of Word embedding in NLP.
+
+Applications of Word Embedding in NLP
+
+Word embedding is used in a wide range of NLP tasks, including:
+
+Machine translation: Word embedding allows computers to understand the meaning of words in different languages, making it possible to translate text from one language to another.
+
+Sentiment analysis: Word embedding allows computers to understand the sentiment of text, such as whether it is positive, negative, or neutral.
+
+Text summarization: Word embedding allows computers to identify the most important words in a text, which can be used to generate a summary of the text.
+
+Chatbots: Word embedding allows chatbots to understand the meaning of user queries and generate appropriate responses.
+
+22)	Explain CBOW architecture.
+
+CBOW Architecture
+
+The CBOW (Continuous Bag-of-Words) model is a neural network architecture that is used to learn word embeddings. It predicts a target word given its surrounding context words. The CBOW architecture consists of three layers: an input layer, a hidden layer, and an output layer.
+
+Input Layer: The input layer represents the surrounding context words. Each context word is represented by a one-hot vector.
+
+Hidden Layer: The hidden layer learns the word embeddings. The word embeddings are vectors of numbers that represent the meaning of the words.
+
+Output Layer: The output layer predicts the target word. The output layer is a softmax layer, which outputs a probability distribution over all possible words in the vocabulary.
+
+23)	What will be input to CBOW model and Output to CBW model.
+
+Input and Output of CBOW Model
+
+The input to the CBOW model is a sequence of context words. The output of the CBOW model is a probability distribution over all possible words in the vocabulary. The probability distribution represents the probability of each word being the target word.
+
+24)	What is Tokenizer .
+
+Tokenizer
+
+A tokenizer is a tool that is used to convert text into a sequence of tokens. Tokens can be words, punctuation marks, or other meaningful units of text. Tokenization is an important step in many NLP tasks, such as word embedding and machine translation.
+
+25)	Explain window size parameter in detail for CBOW model.
+
+Window Size Parameter in Detail for CBOW Model
+
+The window size parameter is a crucial hyperparameter in the CBOW (Continuous Bag-of-Words) model that significantly impacts the model's ability to capture contextual information and learn meaningful word embeddings. It determines the number of surrounding context words considered when predicting a target word. A larger window size allows the model to incorporate more contextual information, potentially leading to more accurate word representations. However, a larger window size also increases the computational complexity of the model and requires more training data.
+
+Impact of Window Size on CBOW Model:
+
+Larger Window Size: A larger window size provides a broader context for predicting the target word, potentially improving the model's ability to capture subtle relationships between words. However, it also increases the number of training examples required and the computational cost of training the model.
+
+Smaller Window Size: A smaller window size reduces the computational complexity and training data requirements. However, it may limit the model's ability to capture long-range dependencies between words, potentially affecting the quality of word embeddings.
+
+Choosing the Optimal Window Size:
+
+The optimal window size depends on the specific task and dataset. For tasks involving short-range dependencies, a smaller window size may suffice. For tasks requiring the capture of long-range relationships, a larger window size may be necessary.
